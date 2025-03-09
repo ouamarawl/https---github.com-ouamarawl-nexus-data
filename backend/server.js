@@ -80,6 +80,7 @@ app.post("/api/upload", upload.array("images", 5), (req, res) => {
   res.json({ imageUrls });
 });
 
+
 // gestion des produits
 
 // Route pour récupérer tous les produits
